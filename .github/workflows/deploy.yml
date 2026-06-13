@@ -31,7 +31,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: |
+          npm install --include=dev --no-audit --no-fund
+          npm install -D vite @vitejs/plugin-react @tailwindcss/vite typescript @types/node --no-audit --no-fund
 
       - name: Run lint check
         run: npm run lint
