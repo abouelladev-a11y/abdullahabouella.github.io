@@ -8,93 +8,45 @@ export function Skills() {
   const { language } = useLanguage();
   const t = content[language].skillsView;
   const contentSkills = localizedSkills[language];
-
-  const skillIcons = [
-    <Building2
-      className="text-[#8C6724]"
-      size={24}
-      strokeWidth={1.5}
-      key="0"
-    />,
-    <Database className="text-[#8C6724]" size={24} strokeWidth={1.5} key="1" />,
-    <Layers className="text-[#8C6724]" size={24} strokeWidth={1.5} key="2" />,
-    <Workflow className="text-[#8C6724]" size={24} strokeWidth={1.5} key="3" />,
-    <Terminal className="text-[#8C6724]" size={24} strokeWidth={1.5} key="4" />,
-  ];
-
-  const skillCategories = contentSkills.map((c, i) => ({
-    ...c,
-    icon: skillIcons[i],
-  }));
+  const iconMap = [Building2, Database, Layers, Workflow, Terminal];
 
   return (
-    <section
-      id="skills"
-      className="py-36 sm:py-40 relative z-10 bg-[#F5F0E6]/72"
-    >
-      <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-[#B88A2C]/20 to-transparent"></div>
-      <div className="max-w-[90rem] mx-auto px-6 lg:px-12">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          className="text-center mb-20 sm:mb-24"
-        >
-          <span className="text-[#8C6724] text-[10px] tracking-[0.4em] uppercase font-bold mb-6 block">
-            {t.badge}
-          </span>
-          <h2 className="text-5xl md:text-6xl font-serif text-[#17110b] mb-6 font-light leading-tight">
-            {t.title[0]}{" "}
-            <span className="text-gradient-gold italic">{t.title[1]}</span>
-          </h2>
-          <p className="text-base text-[#3E3329] max-w-3xl mx-auto font-medium tracking-wide leading-relaxed whitespace-pre-line">
-            {t.subtitle}
-          </p>
+    <section id="skills" className="py-36 sm:py-40 relative z-10 bg-[#F4EDDF]">
+      <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-[#B88A2C]/20 to-transparent" />
+      <div className="max-w-[92rem] mx-auto px-6 lg:px-12">
+        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} className="grid grid-cols-1 lg:grid-cols-[0.75fr_1.25fr] gap-8 lg:gap-16 mb-20 sm:mb-24 items-end">
+          <div>
+            <span className="text-[#8C6724] text-[10px] tracking-[0.4em] uppercase font-bold mb-6 block">{t.badge}</span>
+            <h2 className="text-5xl md:text-6xl font-serif text-[#12100C] font-light leading-tight">
+              {t.title[0]} <span className="text-gradient-gold italic">{t.title[1]}</span>
+            </h2>
+          </div>
+          <p className="text-base text-[#3E3329] max-w-3xl font-medium tracking-wide leading-relaxed whitespace-pre-line">{t.subtitle}</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-5">
-          {skillCategories.map((category, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{
-                delay: idx * 0.08,
-                duration: 0.8,
-                ease: [0.16, 1, 0.3, 1],
-              }}
-              className="glass-panel p-8 border border-[#B88A2C]/14 hover:border-[#B88A2C]/32 transition-all duration-700 group rounded-2xl flex flex-col"
-            >
-              <div className="mb-7 opacity-90 group-hover:opacity-100 group-hover:-translate-y-1 transition-all duration-500">
-                {category.icon}
-              </div>
-              <h3 className="text-[11px] font-extrabold text-[#17110b] mb-4 tracking-[0.2em] uppercase group-hover:text-[#8C6724] transition-colors duration-500 leading-relaxed">
-                {category.title}
-              </h3>
-              {category.description ? (
-                <p className="text-[#3E3329] font-medium text-xs leading-relaxed mb-7">
-                  {category.description}
-                </p>
-              ) : null}
-              <div className="mt-auto">
-                <p className="text-[#8C6724] text-[9px] font-extrabold tracking-[0.25em] uppercase mb-4">
-                  {t.toolsLabel || "Tools"}
-                </p>
-                <ul className="space-y-4">
-                  {category.skills.map((skill: string, sIdx: number) => (
-                    <li
-                      key={sIdx}
-                      className="text-[#3E3329] font-medium flex items-center gap-4 text-xs tracking-wide leading-relaxed"
-                    >
-                      <span className="w-4 h-px bg-[#B88A2C]/25 group-hover:bg-[#B88A2C]/55 transition-colors duration-500"></span>
-                      {skill}
-                    </li>
+        <div className="rounded-[2.2rem] border border-[#8A641E]/16 bg-[#FFF9EF]/78 shadow-[0_30px_80px_rgba(54,40,19,0.10)] overflow-hidden">
+          {contentSkills.map((category, idx) => {
+            const Icon = iconMap[idx] || Layers;
+            return (
+              <motion.div key={category.title} initial={{ opacity: 0, y: 26 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: idx * 0.06, duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className="grid grid-cols-1 lg:grid-cols-[0.36fr_0.35fr_1fr] gap-5 lg:gap-8 p-6 sm:p-8 border-b last:border-b-0 border-[#8A641E]/12 hover:bg-white/45 transition-all duration-500">
+                <div className="flex items-center gap-4">
+                  <div className="w-13 h-13 rounded-2xl bg-[#12100C] text-white flex items-center justify-center shadow-[0_16px_36px_rgba(18,16,12,0.16)]">
+                    <Icon size={22} strokeWidth={1.5} />
+                  </div>
+                  <div>
+                    <p className="font-mono text-[#8C6724] text-xs mb-1">0{idx + 1}</p>
+                    <h3 className="text-lg sm:text-xl font-serif font-light text-[#12100C]">{category.title}</h3>
+                  </div>
+                </div>
+                <p className="text-[#3E3329] font-medium text-sm leading-relaxed">{category.description}</p>
+                <div className="flex flex-wrap gap-2 lg:justify-end items-start">
+                  {category.skills.map((skill: string) => (
+                    <span key={skill} className="text-[10px] font-black tracking-[0.14em] uppercase text-[#493D31] bg-white/72 border border-[#8A641E]/18 px-4 py-2 rounded-full">{skill}</span>
                   ))}
-                </ul>
-              </div>
-            </motion.div>
-          ))}
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

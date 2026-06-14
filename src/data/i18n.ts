@@ -4,7 +4,7 @@ export const content: Record<string, any> = {
   en: {
     nav: [
       {
-        label: "Builder DNA",
+        label: "What I Build",
         href: "#builder-dna",
       },
       {
@@ -16,12 +16,16 @@ export const content: Record<string, any> = {
         href: "#ai-systems",
       },
       {
-        label: "Capabilities",
+        label: "Stack Map",
         href: "#skills",
       },
       {
         label: "About",
         href: "#about",
+      },
+      {
+        label: "Contact",
+        href: "#contact",
       },
     ],
     header: {
@@ -33,9 +37,10 @@ export const content: Record<string, any> = {
       eyebrow:
         "Full-stack Business Systems Developer · AI Automation Specialist",
       brand: "Abdullah Abouella",
-      title: ["I turn business operations", "into software."],
+      systemBadge: "0 → 100 Custom System Builder",
+      title: ["Custom systems", "built from 0 to 100."],
       subtitle:
-        "Most companies don't need another tool.\n\nThey need someone who can understand how the business actually works, identify what's slowing it down, and build systems that eliminate manual work, connect disconnected processes, and help the team operate at scale.",
+        "I build complete business systems around how the company actually works: requirements, database structure, backend logic, permissions, user interfaces, reports, integrations, and AI automation.\n\nNot a template. Not a disconnected tool. A full-stack system designed from the business need to the working product.",
       proofPoints: [
         "Bilingual Arabic / English systems",
         "HR, payroll, attendance, reporting",
@@ -48,73 +53,73 @@ export const content: Record<string, any> = {
       resumeBtn: "Download Resume",
     },
     builder: {
-      badge: "Builder DNA",
-      title: ["The way I build", "is the difference."],
+      badge: "What I Build",
+      title: ["Full-stack systems", "built around the business."],
       subtitle:
-        "My strength is not only writing code. It is understanding how the business actually moves, then designing the system around that reality.",
+        "I can take a business need from zero to a working product: understand the operation, design the data model, build the backend, create the interface, connect reports, and add automation where it creates real value.",
       cards: [
         {
-          title: "Operations First",
-          text: "Before I think about features, I look at how work moves through the business.\n\nWho does what. What information they need. Where delays happen. Where mistakes happen. Where time gets wasted.\n\nSoftware becomes much easier to build when the process is understood first.",
+          title: "Custom Internal Systems",
+          text: "HR, payroll, attendance, contracts, requests, approvals, dashboards, admin settings, employee self-service, and any workflow a business needs to operate with less manual work.",
         },
         {
-          title: "Structure Before Screens",
-          text: "Good systems are built on clear data models, business rules, permissions, and workflows.\n\nThe interface is important.\n\nThe foundation underneath it is what keeps the product useful five years later.",
+          title: "Database + Backend Foundations",
+          text: "Relational data models, APIs, backend rules, role permissions, workflow states, audit trails, and reporting outputs that make the interface reliable.",
         },
         {
-          title: "From Conversations To Systems",
-          text: "Business owners describe problems.\n\nEmployees describe frustrations.\n\nManagers describe bottlenecks.\n\nMy role is translating all of that into workflows, databases, reports, automations, and software that solve the underlying problem.",
+          title: "Workflow + AI Automation",
+          text: "AI agents, voice flows, webhooks, CRM updates, follow-up logic, and automation paths that remove repeated manual work without making the system fragile.",
         },
         {
-          title: "Automation That Earns Its Place",
-          text: "I don't add AI because it's trendy.\n\nI use automation when it removes repetitive work, improves visibility, speeds up decisions, or connects disconnected parts of the business.\n\nIf it doesn't create a measurable improvement, it doesn't belong in the system.",
+          title: "End-to-End Product Delivery",
+          text: "From business analysis and architecture to UI, reports, integrations, testing, handover, and a system that can keep growing after launch.",
         },
       ],
       console: {
-        input: "messy business process",
-        thinking: "data model + workflow + permissions + UI",
-        output: "internal system people can actually use",
+        input: "business need or operational mess",
+        thinking: "requirements + database + backend + UI + reports + automation",
+        output: "custom system delivered end to end",
       },
     },
     process: {
-      badge: "From chaos to system",
-      title: ["How I turn operations", "into software."],
+      badge: "How I Think",
+      title: ["From business need", "to complete system."],
       subtitle:
-        "I start where the problems actually live: inside the process, the people, the data, and the daily workarounds holding the business together.",
+        "I do not start and stop at the UI. I think through the full product: the business rules, data, backend, workflows, screens, reports, automation, and launch path.",
       steps: [
         {
           label: "01",
-          title: "Understand the mess",
-          text: "I map the real process, the exceptions, the approvals, the spreadsheets, the repeated tasks, and the places where work slows down or breaks.",
+          title: "Define the business need",
+          text: "I map the real operation, users, roles, exceptions, approvals, repeated tasks, and the exact problem the system needs to solve.",
         },
         {
           label: "02",
-          title: "Model the data",
-          text: "I define the entities, relationships, permissions, statuses, and reporting structure the system needs before a single screen gets built.",
+          title: "Design the architecture",
+          text: "I define the data model, entities, relationships, permissions, statuses, modules, and reporting structure before the screens are built.",
         },
         {
           label: "03",
-          title: "Design the workflow",
-          text: "I turn business rules into clear user journeys, approval flows, role-based actions, notifications, and audit-friendly steps.",
+          title: "Build backend logic",
+          text: "I turn business rules into backend logic, role-based actions, workflow states, approvals, integrations, and audit-friendly steps.",
         },
         {
           label: "04",
-          title: "Build the product",
-          text: "I build the interface, database logic, integrations, reports, and bilingual experience around how the team actually works.",
+          title: "Create the interface",
+          text: "I build screens, dashboards, forms, reports, and bilingual user journeys around how the team actually works every day.",
         },
         {
           label: "05",
-          title: "Automate the repeatable",
-          text: "I add AI agents, webhooks, and workflow automation where they remove manual work, speed up follow-ups, or connect disconnected tools.",
+          title: "Launch and automate",
+          text: "I connect reports, add useful automation, test the flow, and shape the system so it can be used, improved, and scaled.",
         },
       ],
-      closing: "Software that fits the operation, not the other way around.",
+      closing: "Business Need → Architecture → Database → Backend → UI → Reports → Automation → Launch",
     },
     projectsView: {
       badge: "PROJECTS",
       title: ["SYSTEMS", "I'VE BUILT"],
       subtitle:
-        "A selection of systems that prove depth: business logic, database design, role-based workflows, reporting, bilingual UX, and automation.",
+        "Real systems shown with proof: screenshots, business logic, database thinking, role-based workflows, reports, bilingual UX, and automation.",
       flagship: "Flagship business system",
       explore: "Open Case Study",
       problem: "What was broken",
@@ -126,10 +131,10 @@ export const content: Record<string, any> = {
       previewStrip: "Product Screenshots",
     },
     behind: {
-      badge: "The work behind the screens",
+      badge: "Behind the System",
       title: ["A system is more than", "the screens you click."],
       subtitle:
-        "The real work lives underneath: data structure, permissions, workflow states, audit trails, reports, integrations, and automation paths that keep the operation moving.",
+        "A clean interface is only the surface. The real product lives in the layers underneath: data structure, permissions, workflow states, audit trails, reports, integrations, and automation paths.",
       cards: [
         {
           title: "Schema & business rules",
@@ -158,20 +163,20 @@ export const content: Record<string, any> = {
           label: "working languages: Arabic and English",
         },
         {
-          value: "5+",
-          label: "operational modules shown with screenshots",
+          value: "6",
+          label: "core operational modules shown with screenshots",
         },
         {
-          value: "Full-stack",
-          label: "from database logic to user interface",
+          value: "0→100",
+          label: "from business need to complete product",
         },
       ],
       quote:
-        "I do not build screens first. I build the system the screens depend on.",
+        "Building software from concept to production.",
     },
     demos: {
-      badge: "AI Workflow Automation",
-      title: ["See Automation", "In Action"],
+      badge: "AI Automation Lab",
+      title: ["Automation", "as working flows."],
       subtitle:
         "Not every task needs a person behind it.\n\nSome work is predictable, repetitive, and rule-based.\n\nThese examples show how AI assistants, voice agents, and workflow automation can answer questions, qualify leads, book appointments, route requests, and keep information moving through the business.",
       note: "",
@@ -188,19 +193,19 @@ export const content: Record<string, any> = {
       ],
     },
     skillsView: {
-      badge: "TECHNICAL CAPABILITIES",
+      badge: "STACK MAP",
       title: [
-        "Tools I use to design, build,",
-        "and automate business systems.",
+        "The technical layers",
+        "behind the systems.",
       ],
       subtitle:
-        "The technology is never the goal.\n\nIt's the foundation behind the systems, workflows, reports, and automations that help businesses operate more efficiently.",
+        "Tools matter, but the real value is how they connect: frontend, backend, database logic, workflows, reports, and automation inside one usable product.",
       toolsLabel: "Tools",
     },
     about: {
       badge: "About Abdullah",
       title: ["I build software around how", "businesses actually operate."],
-      body: "I’m a full-stack developer and product builder focused on HR systems, internal tools, databases, reporting, and AI automation.\n\nMy main project is a bilingual HR & Payroll platform I’m building from the ground up, covering employees, contracts, attendance, leave, payroll, self-service, permissions, reports, and admin workflows.\n\nThat project shaped how I think: understand the operation first, design the structure underneath, then build software people can actually use.",
+      body: "I’m a full-stack developer and product builder focused on HR systems, internal tools, databases, reporting, and AI automation.\n\nMy main project is a bilingual HR & Payroll platform I’m building from the ground up, covering employees, contracts, attendance, leave, payroll, self-service, permissions, reports, and admin workflows.\n\nThat project shaped how I work: understand the operation, structure the system well, then build software people can actually rely on.",
       points: [
         "Technical side: frontend, backend, databases, integrations, reporting, and automation tools.",
         "Operational side: approvals, payroll, attendance, employee records, documents, admin workflows, and business rules.",
@@ -223,7 +228,7 @@ export const content: Record<string, any> = {
       badge: "Next Step",
       title: ["Let’s build the system", "your business needs."],
       subtitle:
-        "Have a process, product idea, or internal workflow that deserves to become a real system? Let’s talk.",
+        "Have a workflow that depends on spreadsheets, WhatsApp messages, manual approvals, or disconnected tools? Let’s turn it into a system your team can actually run.",
       bookBtn: "Book a Meeting",
       emailBtn: "Send Email",
       whatsappBtn: "WhatsApp",
@@ -235,7 +240,7 @@ export const content: Record<string, any> = {
   ar: {
     nav: [
       {
-        label: "طريقة البناء",
+        label: "ماذا أبني",
         href: "#builder-dna",
       },
       {
@@ -247,12 +252,16 @@ export const content: Record<string, any> = {
         href: "#ai-systems",
       },
       {
-        label: "القدرات",
+        label: "الخريطة التقنية",
         href: "#skills",
       },
       {
         label: "عن عبدالله",
         href: "#about",
+      },
+      {
+        label: "تواصل",
+        href: "#contact",
       },
     ],
     header: {
@@ -261,11 +270,12 @@ export const content: Record<string, any> = {
       bookBtn: "احجز اجتماعًا",
     },
     hero: {
-      eyebrow: "",
+      eyebrow: "مطور أنظمة أعمال Full-Stack · أتمتة بالذكاء الاصطناعي",
       brand: "عبدالله أبوالعلا",
-      title: ["أحوّل طريقة عمل الشركات", "إلى أنظمة وبرمجيات فعّالة."],
+      systemBadge: "بناء أنظمة مخصصة من 0 إلى 100",
+      title: ["أبني أنظمة مخصصة", "من الفكرة إلى التشغيل."],
       subtitle:
-        "مع نمو الأعمال تبدأ الجداول بالانتشار، وتتوزع المعلومات بين الموظفين، وتتحول المهام اليومية إلى سلسلة طويلة من العمل اليدوي المتكرر.\n\nأقوم بدراسة العمليات التشغيلية وفهم طريقة عمل الفريق، ثم أبني الأنظمة والأدوات التي توحد البيانات، تنظم الإجراءات، وتمنح الإدارة رؤية أوضح وتحكماً أكبر.",
+        "أحوّل احتياج الشركة إلى نظام فعلي يخدم طريقة العمل اليومية: تحليل التشغيل، تصميم قاعدة البيانات، بناء المنطق الخلفي، الصلاحيات، الواجهات، التقارير، التكاملات، والأتمتة الذكية عند الحاجة.\n\nليس قالباً جاهزاً ولا أداة منفصلة. هو نظام Full-Stack مبني حول واقع العمل، من أول فكرة إلى منتج قابل للاستخدام.",
       proofPoints: [
         "أنظمة عربية / إنجليزية",
         "موارد بشرية، رواتب، حضور، تقارير",
@@ -278,74 +288,74 @@ export const content: Record<string, any> = {
       resumeBtn: "تحميل السيرة الذاتية",
     },
     builder: {
-      badge: "طريقة البناء",
-      title: ["الفرق ليس في الكود فقط،", "بل في طريقة التفكير."],
+      badge: "ماذا أبني",
+      title: ["أنظمة Full-Stack", "مصممة حول احتياج العمل."],
       subtitle:
-        "قوتي ليست في كتابة الكود فقط، بل في فهم كيف تتحرك العملية داخل الشركة ثم بناء النظام حول هذا الواقع.",
+        "أبدأ من واقع التشغيل داخل الشركة، ثم أحوله إلى نظام كامل: بيانات منظمة، منطق عمل واضح، واجهة سهلة، تقارير مفيدة، وأتمتة تقلل العمل المتكرر عندما تكون مفيدة فعلاً.",
       cards: [
         {
-          title: "التشغيل أولاً",
-          text: "قبل التفكير في الشاشات والخصائص، أركز على فهم سير العمل داخل الشركة.\n\nكيف تنتقل المهام؟ من المسؤول؟ أين تتكرر الأخطاء؟ وأين يضيع الوقت؟",
+          title: "أنظمة داخلية مخصصة",
+          text: "أنظمة للموارد البشرية، الرواتب، الحضور، العقود، الطلبات، الموافقات، لوحات المتابعة، الإعدادات الإدارية، والخدمة الذاتية للموظفين، مبنية حول طريقة العمل الفعلية داخل الشركة.",
         },
         {
-          title: "الأساس قبل الواجهة",
-          text: "الواجهة مهمة، لكنها ليست ما يجعل النظام ناجحاً.\n\nالنجاح يبدأ من هيكلة البيانات، الصلاحيات، القواعد التشغيلية، وسير الإجراءات بشكل صحيح.",
+          title: "قاعدة بيانات وBackend",
+          text: "نماذج بيانات مترابطة، APIs، قواعد عمل خلفية، صلاحيات حسب الدور، حالات واضحة لكل إجراء، وسجلات تدقيق تجعل النظام قابلاً للمتابعة والثقة.",
         },
         {
-          title: "تحويل التعقيد إلى وضوح",
-          text: "العمليات المعقدة لا تحتاج إلى مزيد من التعقيد.\n\nهدفي هو تبسيط الإجراءات وربط المعلومات وبناء نظام يجعل العمل أسهل وأكثر وضوحاً للجميع.",
+          title: "سير عمل وأتمتة AI",
+          text: "وكلاء ذكاء اصطناعي، تدفقات صوتية، Webhooks، تحديثات CRM، منطق متابعة، ومسارات أتمتة تقلل التكرار اليدوي من غير أن تجعل النظام معقداً أو هشاً.",
         },
         {
-          title: "أتمتة تخدم الهدف",
-          text: "لا أستخدم الذكاء الاصطناعي لمجرد استخدامه.\n\nأستخدمه عندما يساعد على تقليل العمل المتكرر، تسريع الإجراءات، وتحسين تدفق المعلومات داخل الشركة.",
+          title: "تسليم منتج كامل",
+          text: "من فهم الاحتياج وبناء الهيكل إلى الواجهة، التقارير، التكاملات، الاختبار، التسليم، ونظام يمكن تطويره بعد الإطلاق.",
         },
       ],
       console: {
-        input: "عملية تشغيلية غير منظمة",
-        thinking: "بيانات + سير عمل + صلاحيات + واجهة",
-        output: "نظام داخلي يستخدمه الناس فعلاً",
+        input: "احتياج عمل أو عملية مرهقة",
+        thinking: "تحليل + بيانات + منطق تشغيل + واجهة + تقارير + أتمتة",
+        output: "نظام مخصص جاهز للاستخدام",
       },
     },
     process: {
-      badge: "من الفوضى إلى النظام",
-      title: ["كيف أحوّل التشغيل", "إلى برمجيات."],
+      badge: "طريقة التفكير",
+      title: ["من احتياج العمل", "إلى نظام جاهز للتشغيل."],
       subtitle:
-        "لا أبدأ بالديكور. أبدأ بسير العمل، البيانات، المستخدمين، والقواعد التي تحكم العملية.",
+        "لا أتعامل مع المشروع كصفحات منفصلة. أراه كرحلة تشغيل كاملة: من يفعل ماذا، ما البيانات التي تتحرك، أين تتعطل العملية، وكيف يمكن تحويلها إلى نظام واضح وقابل للاستخدام.",
       steps: [
         {
           label: "01",
-          title: "فهم الفوضى",
-          text: "أرسم العملية كما تحدث فعلاً: الحالات الخاصة، الموافقات، الملفات، الجداول، والعمل اليدوي المتكرر.",
+          title: "فهم طريقة العمل",
+          text: "أفهم المستخدمين، الأدوار، الاستثناءات، الموافقات، المهام المتكررة، والمشكلة الحقيقية التي يجب أن يحلها النظام.",
         },
         {
           label: "02",
-          title: "تصميم البيانات",
-          text: "أحدد الكيانات والعلاقات والحالات والصلاحيات وبنية التقارير قبل بناء الشاشات.",
+          title: "تصميم البنية",
+          text: "أحدد الكيانات، العلاقات، الصلاحيات، الحالات، الوحدات، وهيكل التقارير قبل الدخول في تفاصيل الواجهة.",
         },
         {
           label: "03",
-          title: "بناء سير العمل",
-          text: "أحوّل قواعد العمل إلى رحلات استخدام واضحة، أدوار، إجراءات، تنبيهات، وسجلات قابلة للمراجعة.",
+          title: "بناء منطق النظام",
+          text: "أحوّل قواعد العمل إلى إجراءات واضحة، صلاحيات حسب الدور، حالات سير عمل، موافقات، تكاملات، وخطوات يمكن مراجعتها.",
         },
         {
           label: "04",
-          title: "تنفيذ المنتج",
-          text: "أبني الواجهة، منطق قاعدة البيانات، التكاملات، التقارير، والتجربة العربية/الإنجليزية حول الاستخدام اليومي.",
+          title: "تطوير الواجهة",
+          text: "أبني الشاشات، لوحات التحكم، النماذج، التقارير، وتجربة عربية وإنجليزية تخدم طريقة استخدام الفريق اليومية.",
         },
         {
           label: "05",
-          title: "أتمتة ما يتكرر",
-          text: "أستخدم المساعدين الذكيين، الـ Webhooks، وأدوات سير العمل عندما توفر وقتًا بدون جعل النظام هشًا.",
+          title: "الإطلاق والتحسين",
+          text: "أربط التقارير، أضيف الأتمتة عند الحاجة، أختبر التدفق، وأجهز النظام ليكون قابلاً للاستخدام والتطوير.",
         },
       ],
       closing:
-        "نظام مصمم حول طريقة عمل الشركة، لا نظام يجبر الشركة على تغيير طريقة عملها.",
+        "احتياج العمل → البنية → قاعدة البيانات → المنطق الخلفي → الواجهة → التقارير → الأتمتة → الإطلاق",
     },
     projectsView: {
       badge: "المشاريع",
       title: ["أنظمة", "قمت ببنائها"],
       subtitle:
-        "مجموعة من الأعمال التي تثبت العمق: منطق تشغيل، تصميم بيانات، صلاحيات، تقارير، واجهات عربية/إنجليزية، وأتمتة.",
+        "مشاريع حقيقية مدعومة بلقطات شاشة ومنطق واضح: بيانات، صلاحيات، سير عمل، تقارير، تجربة عربية وإنجليزية، وأتمتة حيث تضيف قيمة.",
       flagship: "النظام الرئيسي",
       explore: "افتح دراسة الحالة",
       problem: "ما الذي كان مكسورًا؟",
@@ -357,26 +367,26 @@ export const content: Record<string, any> = {
       previewStrip: "لقطات من النظام",
     },
     behind: {
-      badge: "ما وراء الشاشات",
-      title: ["النظام ليس مجرد شاشات", "يضغط عليها المستخدم."],
+      badge: "ما وراء النظام",
+      title: ["ما وراء الواجهة", "هو ما يصنع النظام."],
       subtitle:
-        "القيمة الحقيقية تكون في ما خلف الواجهة: هيكلة البيانات، الصلاحيات، حالات سير العمل، سجل العمليات، التقارير، التكاملات، ومسارات الأتمتة التي تجعل النظام يعمل بثبات.",
+        "الواجهة مهمة، لكنها ليست كل القصة. قوة النظام تظهر في ما يحدث خلفها: بيانات منظمة، صلاحيات واضحة، حالات عمل مفهومة، تقارير دقيقة، وتكاملات تجعل التشغيل أسهل.",
       cards: [
         {
           title: "هيكلة البيانات وقواعد العمل",
-          text: "سجلات الموظفين، العقود، عناصر الرواتب، الطلبات، الموافقات، المستندات، حالات الحضور، ومخرجات التقارير ضمن نموذج واحد مترابط.",
+          text: "سجلات موظفين، عقود، مكونات رواتب، طلبات، موافقات، مستندات، حالات حضور، ومخرجات تقارير متصلة داخل نموذج واحد واضح.",
         },
         {
           title: "الصلاحيات وسجل العمليات",
-          text: "إجراءات حسب الدور، تحكم إداري، خدمة ذاتية للموظفين، قوائم موافقات، تتبع تاريخ العمليات، ووضوح في المسؤوليات.",
+          text: "إجراءات حسب الدور، تحكم إداري، خدمة ذاتية للموظفين، قوائم موافقات، سجل للعمليات، ووضوح في المسؤوليات.",
         },
         {
           title: "تقارير ووضوح للقرارات",
-          text: "تقارير قابلة للتصدير، لوحات متابعة، فلاتر، تتبع الحالات، ومخرجات منظمة تساعد الإدارة على فهم ما يحدث فعلياً.",
+          text: "تقارير قابلة للتصدير، لوحات متابعة، فلاتر، تتبع للحالات، ومخرجات منظمة تساعد الإدارة على فهم ما يحدث واتخاذ القرار بثقة.",
         },
         {
           title: "مسارات الأتمتة",
-          text: "وكلاء ذكاء اصطناعي، تدفقات صوتية، Webhooks، تحديثات CRM، فحص المواعيد، المتابعات، ومعالجة المهام المتكررة.",
+          text: "وكلاء ذكاء اصطناعي، تدفقات صوتية، Webhooks، تحديثات CRM، فحص مواعيد، متابعات، ومعالجة للمهام المتكررة.",
         },
       ],
       stats: [
@@ -389,26 +399,26 @@ export const content: Record<string, any> = {
           label: "لغتان فعليتان: العربية والإنجليزية",
         },
         {
-          value: "+5",
-          label: "وحدات تشغيلية موثقة بلقطات شاشة",
+          value: "6",
+          label: "وحدات تشغيلية أساسية موثقة بلقطات شاشة",
         },
         {
-          value: "Full-stack",
-          label: "من منطق البيانات إلى واجهة المستخدم",
+          value: "0→100",
+          label: "من احتياج العمل إلى منتج كامل",
         },
       ],
-      quote: "أنا لا أصمم الصفحة فقط. أنا أصمم كيف يتحرك العمل.",
+      quote: "من الفكرة الأولى إلى نظام يعمل على أرض الواقع",
     },
     demos: {
-      badge: "أتمتة سير العمل بالذكاء الاصطناعي",
-      title: ["جرّب الأتمتة", "بنفسك"],
+      badge: "مختبر الأتمتة والذكاء الاصطناعي",
+      title: ["الأتمتة", "كتدفقات عمل حقيقية"],
       subtitle:
-        "بعض المهام لا تحتاج موظفاً إضافياً.\n\nتحتاج نظاماً يعرف ماذا يفعل، متى يتدخل، وأين يرسل المعلومة بعد ذلك.\n\nفي هذه النماذج، سترى كيف يمكن للذكاء الاصطناعي أن يرد على العملاء، ينظم الحجوزات، يتابع الطلبات، ويوفر وقت الفريق في المهام المتكررة.",
+        "ليست كل مهمة تحتاج متابعة يدوية.\n\nبعض الأعمال تحتاج مساراً واضحاً يعرف متى يرد، ماذا يسأل، أين يسجل المعلومة، ومتى يحولها لفريق العمل.\n\nهذه النماذج تعرض كيف يمكن للذكاء الاصطناعي والأتمتة أن يردا على العملاء، ينظما المواعيد، يتابعا الطلبات، ويوفرا وقت الفريق.",
       note: "",
       launch: "جرّب العرض",
       laraTitle: "اسأل Lara أي شيء",
       laraText:
-        "اسأل عن مشاريعي، خبرتي، أو كيف يمكن بناء نظام مشابه لشركتك.\n\nLara تستطيع التحدث بالعربية والإنجليزية.",
+        "اسأل عن مشاريعي، خبرتي، أو كيف يمكن تحويل فكرة داخل شركتك إلى نظام واضح.\n\nLara تستطيع التحدث بالعربية والإنجليزية.",
       laraSubtitle: "أسئلة مقترحة",
       prompts: [
         "كيف ممكن تبني نظام مناسب لشركتنا؟",
@@ -418,30 +428,30 @@ export const content: Record<string, any> = {
       ],
     },
     skillsView: {
-      badge: "القدرات التقنية",
+      badge: "الخريطة التقنية",
       title: [
-        "التقنيات التي أستخدمها لبناء الأنظمة",
-        "والأتمتة وحلول الأعمال.",
+        "الطبقات التقنية",
+        "خلف الأنظمة.",
       ],
       subtitle:
-        "التقنية ليست الهدف بحد ذاتها.\n\nإنها الأدوات التي أعتمد عليها لبناء الأنظمة، تنظيم العمليات، أتمتة المهام، وتحويل احتياجات العمل إلى حلول عملية قابلة للاستخدام.",
+        "الأدوات وحدها لا تصنع نظاماً جيداً. القيمة الحقيقية في طريقة ربط الواجهة، قاعدة البيانات، منطق التشغيل، التقارير، والأتمتة داخل منتج واحد يعمل بسلاسة.",
       toolsLabel: "التقنيات",
     },
     about: {
       badge: "عن عبدالله",
-      title: ["أبني البرمجيات بعقلية تهتم", "بالعمل قبل الواجهة."],
-      body: "أنا مطور Full-Stack وباني منتجات أركز على أنظمة الموارد البشرية، الأدوات الداخلية، قواعد البيانات، التقارير، والأتمتة بالذكاء الاصطناعي.\n\nمشروعي الأساسي حالياً هو منصة موارد بشرية ورواتب ثنائية اللغة أبنيها من الصفر، وتشمل الموظفين، العقود، الحضور، الإجازات، الرواتب، الخدمة الذاتية، الصلاحيات، التقارير، وإعدادات الإدارة.\n\nهذا المشروع شكّل طريقة تفكيري: أفهم التشغيل أولاً، أبني الهيكل الصحيح، ثم أطور نظاماً يستطيع الناس استخدامه فعلاً.",
+      title: ["أبني البرمجيات بعقلية تفهم", "طريقة عمل الشركة."],
+      body: "أنا مطور Full-Stack وباني منتجات أركز على أنظمة الموارد البشرية، الأدوات الداخلية، قواعد البيانات، التقارير، والأتمتة بالذكاء الاصطناعي.\n\nمشروعي الأساسي حالياً هو منصة موارد بشرية ورواتب ثنائية اللغة أبنيها من الصفر، وتشمل الموظفين، العقود، الحضور، الإجازات، الرواتب، الخدمة الذاتية، الصلاحيات، التقارير، وإعدادات الإدارة.\n\nهذا المشروع شكّل طريقة عملي: أفهم التشغيل أولاً، أبني الهيكل الصحيح، ثم أحوّل ذلك إلى نظام واضح يستطيع الفريق الاعتماد عليه.",
       points: [
-        "تقنيًا: واجهات، خلفية، قواعد بيانات، تكاملات، تقارير، وأدوات أتمتة.",
-        "تشغيليًا: موافقات، رواتب، حضور، سجلات موظفين، مستندات، إعدادات إدارية، وقواعد عمل.",
-        "النتيجة: أنظمة عملية تجعل التشغيل اليومي أسهل في الإدارة والمراجعة والتوسع.",
+        "تقنياً: واجهات، خلفية، قواعد بيانات، تكاملات، تقارير، وأدوات أتمتة.",
+        "تشغيلياً: موافقات، رواتب، حضور، سجلات موظفين، مستندات، إعدادات إدارية، وقواعد عمل.",
+        "النتيجة: أنظمة عملية تجعل الإدارة اليومية أوضح وأسهل في المراجعة والتوسع.",
       ],
     },
     why: {
       badge: "لماذا تعمل معي؟",
       title: ["أبني النظام كاملاً،", "لا جزءاً منفصلاً منه."],
       subtitle:
-        "أناسب المشاريع التي تحتاج أكثر من واجهة جميلة أو قاعدة بيانات منفصلة.\n\nأستطيع فهم طريقة العمل، تصميم الهيكل، بناء قاعدة البيانات، تطوير الواجهات، تنظيم سير العمل، ربط التقارير، وإضافة الأتمتة عندما تكون مفيدة.",
+        "أناسب المشاريع التي تحتاج منتجاً متماسكاً، لا واجهة جميلة فقط ولا قاعدة بيانات منفصلة.\n\nأستطيع فهم طريقة العمل، تصميم الهيكل، بناء قاعدة البيانات، تطوير الواجهات، تنظيم سير العمل، ربط التقارير، وإضافة الأتمتة عندما تكون مفيدة.",
       cards: [
         "أفهم طبيعة العمل قبل بناء المنتج.",
         "أربط قاعدة البيانات، سير العمل، الواجهة، التقارير، والأتمتة داخل نظام واحد.",
@@ -453,9 +463,9 @@ export const content: Record<string, any> = {
       badge: "الخطوة التالية",
       title: ["لنبني نظاماً", "يناسب طريقة عملك."],
       subtitle:
-        "لو لديك عملية، فكرة منتج، أو سير عمل داخلي يستحق أن يتحول إلى نظام حقيقي، فلنتحدث.",
+        "إذا كان لديك سير عمل يعتمد على جداول، رسائل واتساب، موافقات يدوية، أو أدوات متفرقة، يمكننا تحويله إلى نظام واضح يستطيع فريقك الاعتماد عليه.",
       bookBtn: "احجز اجتماعًا",
-      emailBtn: "ارسل بريد الإلكتروني",
+      emailBtn: "أرسل بريداً",
       whatsappBtn: "واتساب",
       name: "عبدالله أبوالعلا",
       rights: "أنظمة أعمال، أدوات داخلية، تقارير، وأتمتة بالذكاء الاصطناعي.",

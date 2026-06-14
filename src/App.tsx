@@ -9,9 +9,9 @@ import { WorkBehindScreens } from './components/WorkBehindScreens';
 import { AiDemos } from './components/AiDemos';
 import { Skills } from './components/Skills';
 import { About } from './components/About';
-import { WhyWorkWithMe } from './components/WhyWorkWithMe';
 import { Footer } from './components/Footer';
 import { Chatbot } from './components/Chatbot';
+import { CursorTrace } from './components/CursorTrace';
 import { LanguageProvider } from './context/LanguageContext';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
 
@@ -19,16 +19,16 @@ function PortfolioShell() {
   const { theme } = useTheme();
 
   return (
-      <div className={`portfolio-shell theme-${theme} min-h-screen bg-[#F5F0E6] text-[#221911] selection:bg-[#B88A2C] selection:text-white`}>
-        {/* Ethereal light luxury background */}
-        <div className="site-background fixed inset-0 z-0 pointer-events-none overflow-hidden bg-[#F5F0E6]">
+      <div className={`portfolio-shell theme-${theme} min-h-screen bg-[#F4EDDF] text-[#221911] selection:bg-[#B88A2C] selection:text-white`}>
+        {/* Systems-builder background */}
+        <div className="site-background fixed inset-0 z-0 pointer-events-none overflow-hidden bg-[#F4EDDF]">
           <Background
             className="w-full h-full opacity-35 mix-blend-multiply"
             animation={{ scale: 34, speed: 15 }}
             noise={{ opacity: 0.65, scale: 0.75 }}
             color="rgba(36, 36, 34, 1)"
           />
-          <div className="background-radial-overlay absolute inset-0 bg-[radial-gradient(circle_at_50%_18%,rgba(255,255,255,0.82),rgba(245,240,230,0.78)_42%,rgba(230,215,191,0.68)_100%)] z-10"></div>
+          <div className="background-radial-overlay absolute inset-0 bg-[radial-gradient(circle_at_50%_18%,rgba(255,255,255,0.74),rgba(244,237,223,0.76)_42%,rgba(230,215,191,0.66)_100%)] z-10"></div>
           <div className="luxury-grid-glow z-10"></div>
           <div className="luxury-silk-sheen z-10"></div>
           <div className="gold-thread thread-one z-10"></div>
@@ -51,10 +51,10 @@ function PortfolioShell() {
           <AiDemos />
           <Skills />
           <About />
-          <WhyWorkWithMe />
-        </main>
+          </main>
 
         <Footer />
+        <CursorTrace />
         <Chatbot />
       </div>
   );
