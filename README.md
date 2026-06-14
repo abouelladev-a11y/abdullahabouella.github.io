@@ -1,6 +1,6 @@
 # Abdullah Abouella Portfolio
 
-A bilingual personal portfolio for Abdullah Abouella, positioned around the person behind the systems: operational thinking, database-first product design, HR/payroll platforms, reporting workflows, and AI automation.
+A bilingual personal portfolio for Abdullah Abouella, focused on operations-first software, database-first product design, HR/payroll platforms, reporting workflows, AI automation, and direct contact CTAs.
 
 ## Stack
 
@@ -59,7 +59,7 @@ src/
   components/      UI sections, proof sections, and interactive components
   context/         Language provider and RTL handling
   data/            English/Arabic copy, projects, skills, demos
-  utils/           Calendly integration helper
+  utils/           Calendly helper and safe contact-link builders
 public/
   screenshots/     Project screenshots used in case studies
   abdo-logo.jpg    Portfolio logo
@@ -70,9 +70,11 @@ public/
 - The portfolio supports English and Arabic layouts.
 - Project screenshots are presented as case-study proof and optimized as web images.
 - Calendly opens as a popup for booking a meeting.
-- Lara is used as the bilingual portfolio assistant name and can guide visitors in Arabic and English.
-- The public resume download points to `public/Abdullah_Abouella_Resume.docx`, matching the latest uploaded resume file.
-- The copy now follows the updated EN/AR direction for operations-first software, Builder DNA, work-behind-screens proof, Lara, AI workflow automation, capabilities, About, Why Work With Me, and the final CTA.
+- Lara is used as the portfolio assistant name and is positioned as bilingual in Arabic and English.
+- The public resume download points to `public/Abdullah_Abouella_Resume.docx`.
+- Send Email uses a clean pre-filled `mailto:` link with spaces/new lines encoded correctly for Gmail, Outlook, and desktop mail apps.
+- WhatsApp uses a safe `wa.me` link with a pre-filled message and `noopener noreferrer`.
+- The copy positions Abdullah as a developer who understands operations, data models, workflows, permissions, reporting, bilingual UX, and automation.
 
 ## Owner
 
